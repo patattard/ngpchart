@@ -11,7 +11,7 @@ git clone https://github.com/patattard/ngpchart
 cd ngpchart
 ```
 
-## Running Project using Docker
+## Running project using Docker
 
 ### Build Docker image
 ```
