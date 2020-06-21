@@ -11,17 +11,19 @@ git clone https://github.com/patattard/ngpchart
 cd ngpchart
 ```
 
-## Build Docker image
+## Running Project using Docker
+
+### Build Docker image
 ```
 docker build -t ngp-chart-app .
 ```
 
-## Run Docker Container
+### Run Docker Container
 ```
 docker run -it -p 8080:8080 --rm --name dockerize-vuejs-app-1 ngp-chart-app
 ```
 
-## Project setup
+## Running project using npm
 ```
 npm install
 ```
@@ -36,7 +38,7 @@ npm run serve
 npm run build
 ```
 
-## Run tests
+### Run tests
 ```
 npm run test:unit
 ```
