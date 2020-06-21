@@ -1,4 +1,25 @@
 # ngp-chart-app
+This vue web application displays a draggable bitcoin price chart.
+
+## Clone repository
+```
+git clone https://github.com/patattard/ngpchart
+```
+
+## Go to project directory
+```
+cd ngpchart
+```
+
+## Build Docker image
+```
+docker build -t ngp-chart-app .
+```
+
+## Run Docker Container
+```
+docker run -it -p 8080:8080 --rm --name dockerize-vuejs-app-1 ngp-chart-app
+```
 
 ## Project setup
 ```
@@ -15,10 +36,7 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+## Run tests
 ```
-npm run lint
+npm run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
