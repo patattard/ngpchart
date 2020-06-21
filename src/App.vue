@@ -6,8 +6,9 @@
       dark
     >
       <div class="d-flex align-center">
+        Bitcoin Price
       </div>
-      <v-spacer></v-spacer>
+   
     </v-app-bar>
 
     <v-main>
